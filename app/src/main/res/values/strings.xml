@@ -1,21 +1,21 @@
 <resources>
-    <string name="app_name">Game</string>
+    <string name="app_name">Man Rescue</string>
 
     <bool name="is_testing">true</bool>
 
-    <bool name="enable_banner">true</bool>
+    <bool name="enable_banner">false</bool>
         <bool name="banner_at_bottom">true</bool>
         <bool name="banner_not_overlap">false</bool>
         <string name="id_banner">ca-app-pub-3940256099942544/6300978111</string>
 
-    <bool name="enable_inter">true</bool>
+    <bool name="enable_inter">false</bool>
         <string name="id_inter">ca-app-pub-3940256099942544/1033173712</string>
 
     <bool name="enable_gdpr">true</bool>
         <bool name="under_age">false</bool>
-        <string name="privacy_url">https://sites.google.com/view/gradlegames/privacy</string>
+        <string name="privacy_url">https://mywild.work/privacy</string>
         <string name="privacy_policy">Privacy Policy</string>
-        <string name="privacy_email">gradlecode@outlook.com</string>
+        <string name="privacy_email">djacidburn1877@gmail.com</string>
 
     <string name="share_description">Try this new game</string>
 

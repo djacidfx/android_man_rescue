@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    compileSdk 33
-    buildToolsVersion '33.0.0'
+    compileSdk 34
+    buildToolsVersion '34.0.0'
 
     defaultConfig {
-        applicationId 'com.jacob.marblelegend'
+        applicationId 'work.mywild.rescue'
         minSdkVersion 19
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName '1.0.0'
         multiDexEnabled true
@@ -45,15 +45,15 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.5.1'
-    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'com.google.android.gms:play-services-ads:21.4.0'
-    implementation 'androidx.core:core:1.9.0'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.5.1'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
-    implementation 'com.google.android.ump:user-messaging-platform:2.0.0'
-    implementation 'androidx.preference:preference:1.2.0'
+    implementation 'com.google.android.gms:play-services-ads:22.6.0'
+    implementation 'androidx.core:core:1.12.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.7.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
+    implementation 'com.google.android.ump:user-messaging-platform:2.2.0'
+    implementation 'androidx.preference:preference:1.2.1'
     implementation 'com.google.android.play:core:1.10.3'
     //implementation 'com.google.android.play:review:2.0.1'
     //implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.5.30'
